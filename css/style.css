@@ -1,0 +1,12 @@
+.card {
+  background-color: #d9729e;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=style.css.map */

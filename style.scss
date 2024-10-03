@@ -1,0 +1,25 @@
+$bg-color: hotpink;
+
+$shadow-color: #3498db;
+
+
+
+
+@mixin card-styles($bg-color, $shadow-color) {
+    background-color: $bg-color;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba($shadow-color, 0.2);
+    transition: box-shadow 0.3s;
+  
+    &:hover {
+      box-shadow: 0 8px 16px rgba($shadow-color, 0.4);
+    }
+  }
+  
+  .card {
+    @include card-styles(#d9729e, #000);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
